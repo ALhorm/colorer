@@ -2,3 +2,6 @@ tests.py
 
 .idea/
 colorer/__pycache__/
+build/
+*.egg-info
+dist/
