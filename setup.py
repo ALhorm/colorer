@@ -1,15 +1,20 @@
 from setuptools import setup, find_packages
 
 
+def readme():
+    with open('README.md', 'r') as file:
+        return file.read()
+
+
 setup(
     name='colorer',
     version='1.0.0',
     author='ALhorm',
     author_email='gladkoam@gmail.com',
     description='A simple and handy library for coloring strings.',
-    long_description='',
+    long_description=readme(),
     long_description_content_type='text/markdown',
-    url='',
+    url='https://github.com/ALhorm/colorer',
     packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3.11',
