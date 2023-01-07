@@ -1,7 +1,4 @@
-# <p align="center">colorer
-<p align="center"><b>A simple and handy library for coloring strings in Python</b>
-
-## Getting started
+# Getting started
 
 **Installation**:
 - Installation with pip:
@@ -16,7 +13,7 @@
     $ python setup.py install
     ```
 
-## Usage
+# Usage
 
 <b>Colorer</b> uses <i>ANSI Escape Sequences</i> for line coloring and supports both color schemes (16 and 256 colors). The description of the text style is set in the line where your text is written. It is important to note that more than one coloring cannot be used for one line. Let's take a look at an example:
 
@@ -78,7 +75,7 @@ print(text)
 
 In this example, we will change the "<b>is test text</b>" part of the string. Namely, we will change the style to <b>underlined</b>, and the background to color <b>187 of the 256 color scheme</b>. This entire scheme is shown below:
 
-<img src="img/colors.jpg" alt="256 color scheme">
+<img src="https://raw.githubusercontent.com/ALhorm/colorer/master/img/colors.jpg" alt="256 color scheme">
 
 It is also worth noting that it is not necessary to write text styles, as shown in the example. If you write like this:
 
@@ -88,6 +85,6 @@ text = string("This ((STylE = NORMAL, FORE=none, BaCK=85)) is test ((eNd)) text"
 
 then nothing will change. But I recommend that you write beautifully, as shown in the previous examples.
 
-## Thank you
+# Thank you
 
 Thank you for using the <b>colorer</b> library!
