@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name='colorer',
-    version='1.0.0',
+    version='1.0.1',
     author='ALhorm',
     author_email='gladkoam@gmail.com',
     description='A simple and handy library for coloring strings.',
